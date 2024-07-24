@@ -1,0 +1,44 @@
+/* Toggle Button CSS */
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-button {
+    background-color: #5896fb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+    border-radius: 20px;
+  }
+  
+  .toggle-button.active {
+    background-color: #ea7a00;
+  }
+  
+  .toggle-button:hover {
+    background-color: #ea7a00;
+  }
+
+  
+  /* Centering amount buttons and text */
+.cf {
+    text-align: center;
+  }
+  
+  .cf .row.justify-content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cf .col-lg-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
