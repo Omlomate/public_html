@@ -31,7 +31,9 @@
   </style>
 </head>
 
-<body>
+<body onload="showDonationAlert()">
+
+
 
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
@@ -62,12 +64,19 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 d-none d-lg-flex d-xl-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-in" data-aos-delay="200">
+        <div
+          class="col-lg-6 d-none d-lg-flex d-xl-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+          data-aos="fade-in" data-aos-delay="200">
           <h1 align="" style="font-size:1.8rem; line-height: 2.2rem;">Your small act can uplift someone's life.</h1>
           <img class="mb-3 mt-2" src="assets/img/line.png" width="35%">
           <h5 style="color: #fff;">Why Donate?</h5>
           <p align="" style="color:#fff;">
-            SMIT aims to ensure the safety and welfare of the existing members as well as those who wish to stay with us before welcoming residents on board. To fulfil these goals, setting up a well-defined and reasonable methodology for onboarding is essential. Every drop of water together makes the ocean. Every donation counts as every rupee you donate will go towards a noble cause and is thoroughly utilized for welfare activities in our foundation and the needy in society at large. We need your constant support and kindness to keep bettering the lives of the homeless.
+            SMIT aims to ensure the safety and welfare of the existing members as well as those who wish to stay with us
+            before welcoming residents on board. To fulfil these goals, setting up a well-defined and reasonable
+            methodology for onboarding is essential. Every drop of water together makes the ocean. Every donation counts
+            as every rupee you donate will go towards a noble cause and is thoroughly utilized for welfare activities in
+            our foundation and the needy in society at large. We need your constant support and kindness to keep
+            bettering the lives of the homeless.
           </p>
         </div>
         <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up">
@@ -75,41 +84,51 @@
             <p>Be The Catalyst For Transforming lives</p>
           </div>
           <div class="cf">
-           
-            
+
+
             <!-- Toggle Buttons -->
             <div class="toggle-container">
               <button id="oneTimeButton" class="toggle-button active">One-Time Donation</button>
               <button id="monthlyButton" class="toggle-button">Monthly Donation</button>
             </div>
 
-            <p class="mt-4" style="font-size: 12px;align-items: center;justify-content: center;">Choose an Amount of Donation</p>
-            
+            <p class="mt-4" style="font-size: 12px;align-items: center;justify-content: center;">Choose an Amount of
+              Donation</p>
+
             <!-- Donation Buttons -->
             <div class="row justify-content-center">
               <div class="col-lg-6">
-                <a id="donationBtn500" href="https://billing.zoho.in/subscribe/427ec977f0a1543789b4d1dbcbe6542931d35c8f23c9e043dbde1ccf1c7a189d/D500" class="donationbtn mt-2 mb-2">₹ 500 &nbsp;</a>
+                <a id="donationBtn500"
+                  href="https://billing.zoho.in/subscribe/427ec977f0a1543789b4d1dbcbe6542931d35c8f23c9e043dbde1ccf1c7a189d/D500"
+                  class="donationbtn mt-2 mb-2">₹ 500 &nbsp;</a>
               </div>
               <div class="col-lg-6">
-                <a id="donationBtn1500" href="https://billing.zoho.in/subscribe/427ec977f0a1543789b4d1dbcbe6542931d35c8f23c9e043dbde1ccf1c7a189d/RE2" class="donationbtn mt-2 mb-2">₹ 1500</a>
+                <a id="donationBtn1500"
+                  href="https://billing.zoho.in/subscribe/427ec977f0a1543789b4d1dbcbe6542931d35c8f23c9e043dbde1ccf1c7a189d/RE2"
+                  class="donationbtn mt-2 mb-2">₹ 1500</a>
               </div>
             </div>
             <div class="row mt-4 justify-content-center">
               <div class="col-lg-6">
-                <a id="donationBtn2500" href="https://billing.zoho.in/subscribe/427ec977f0a1543789b4d1dbcbe6542931d35c8f23c9e043dbde1ccf1c7a189d/D2500" class="donationbtn mt-2 mb-2">₹ 2500</a>
+                <a id="donationBtn2500"
+                  href="https://billing.zoho.in/subscribe/427ec977f0a1543789b4d1dbcbe6542931d35c8f23c9e043dbde1ccf1c7a189d/D2500"
+                  class="donationbtn mt-2 mb-2">₹ 2500</a>
               </div>
               <div class="col-lg-6">
-                <a id="donationBtnOthers" href="https://billing.zoho.in/subscribe/427ec977f0a1543789b4d1dbcbe6542931d35c8f23c9e043dbde1ccf1c7a189d/C1" class="donationbtn1 mt-2 mb-2">Others</a>
+                <a id="donationBtnOthers"
+                  href="https://billing.zoho.in/subscribe/427ec977f0a1543789b4d1dbcbe6542931d35c8f23c9e043dbde1ccf1c7a189d/C1"
+                  class="donationbtn1 mt-2 mb-2">Others</a>
               </div>
             </div>
-            <p class="mt-4" style="font-size: 12px;"><b>80G Approval No.: CIT EXEMPTION, PUNE/80G/2018-19/A/10047</b></p>
+            <p class="mt-4" style="font-size: 12px;"><b>80G Approval No.: CIT EXEMPTION, PUNE/80G/2018-19/A/10047</b>
+            </p>
           </div>
         </div>
       </div>
     </div>
   </section>
-  
-  
+
+
   <div class="sticky1"><a target="_blank" href="assets/smit_brochure.pdf" style="color: #f7f7f7;">BROCHURE &nbsp;<img
         src="assets/img/brochure.png" style="width: 80%;"></a></div>
   <section>
@@ -241,9 +260,9 @@
   <script src="assets/js/main.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+  <script>
+    AOS.init();
+  </script>
 
   <script>
     $('#myTab a').on('click', function (e) {
@@ -256,7 +275,7 @@
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
-        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
       if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
       n.queue = []; t = b.createElement(e); t.async = !0;
@@ -279,6 +298,12 @@
     gtag('js', new Date());
 
     gtag('config', 'G-RPM8GMDX2C');
+  </script>
+
+  <script>
+    function showDonationAlert() {
+      alert("Please note that at present, we can only accept donations from Indian citizens. Once we receive our FCRA (Foreign Contribution Regulation Act) certification, we will be able to accept foreign donations as well. We will keep you updated on any changes regarding this status.\n\nThank you for your understanding and support.");
+    }
   </script>
 </body>
 
